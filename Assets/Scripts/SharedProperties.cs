@@ -8,7 +8,7 @@ public class SharedPropertiesHelper : MonoBehaviour
 {
     public static class SharedProperties
     {
-        public static List<Color> GridColors = new List<Color>() { Color.red, Color.blue,Color.green };
+        public static List<Color> GridColors = new List<Color>() { Color.red, Color.blue,Color.green, Color.yellow, Color.cyan };
         public static Tuple<int, int> BoardSize = new Tuple<int, int>(8, 9);
     }
 }
